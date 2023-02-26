@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: blue;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: rgb(195, 215, 234);
+    transition: background 2s;
+}
+.btn:hover{
+    background-color:aqua
+}
+.image-container{
+    margin: 50px auto;
+    background-color: rgb(190, 219, 245);
+    display: flex;
+    justify-content: center
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    padding: 10px;
+    width: 100%;
+}
+.inputfield{
+    width: 88%;
+}
